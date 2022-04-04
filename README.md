@@ -9,4 +9,4 @@ Things to look out for
 <li>Using a free API to get random images</li>
 
 <h2>1 Using State Hook to switch between pages</h2>
-I have called the ```useState``` hook from react component which I belive you have now by installing the react app
+I have called the `useState` hook from react component which I belive you have now by installing the react app
