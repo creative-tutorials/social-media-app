@@ -1,0 +1,118 @@
+.container{
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.4);
+    border-radius: 8px;
+    padding: 30px 30px;
+    /* overflow: hidden; */
+    display: none;
+}
+.container .retrun{
+    font-size: 2em;
+    color: #6f6f6f;
+    margin: 0 0 30px;
+    cursor: pointer;
+}
+.container.active{
+    display: block;
+}
+.container .content .postd .posty .eInput{
+    margin: 0 0 20px;
+}
+.container .content .postd .posty .eInput input{
+    width: 100%;
+    max-width: 470px;
+    height: 50px;
+    padding-left: 28px;
+    border: 2px solid #bfbfbf;
+    border-radius: 3px;
+    outline: none;
+    font-size: 15px;
+}
+.container .content .postd .posty .eInput input:focus{
+    /* border: 2px solid #333366; */
+    border-color: #333366;
+}
+.container .content .postd .posty .input textarea:focus{
+    border-color: #333366;
+}
+.container .content .postd .posty .input textarea{
+    width: 100%;
+    max-width: 440px;
+    padding: 30px 30px;
+    border: 2px solid #bfbfbf;
+    border-radius: 3px;
+    outline: none;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100px;
+    max-height: 500px;
+    resize: vertical;
+}
+.container .content .postd .posty .button{
+    margin: 10px 0 0;
+}
+.container .content .postd .posty .button button{
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    background: #424296;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.postdiv{
+    margin: 20px 0;
+}
+.postdiv .post_image{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.postdiv .post_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.postdiv .post_image img{
+    transition: all 0.3s cubic-bezier(0.42, 0, 0.36, 1.12);
+}
+.postdiv .post_image img:hover{
+    transform: scale(1.1);
+}
+.postdiv .bigText{
+    margin: 10px 0 0;
+    font-size: 1.8em;
+    font-weight: 600;
+    /* color: red; */
+}
+.postdiv .small_text{
+    margin: -2px 0 0;
+    color: #6f6f6f;
+    font-weight: 500;
+}
+.buttons2 {
+    margin: 10px 0 0;
+}
+.buttons2 .btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postdiv .buttons2 .btns .btn_text{
+    cursor: pointer;
+    user-select: none;
+    font-weight: 500;
+}
+.postdiv .buttons2 .btns span{
+    font-weight: 600;
+    color: #333366;
+}
+#like2.active{
+    color: #464646;
+    pointer-events: none;
+}
